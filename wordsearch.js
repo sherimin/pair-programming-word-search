@@ -5,7 +5,7 @@
 
 const wordSearch = (letters, word) => { 
     
-    if (letters.length < 1 || word.length <1) {
+    if (letters.length < 1 || word.length < 1) {
         return false;
     }
     
@@ -38,7 +38,6 @@ const findWord = function(grid, word) {
 
 
 const transpose = function (matrix) {
-    // Put your solution here
     let output = [];
     for (let i = 0; i < matrix[0].length; i++) {
         output.push([]);
